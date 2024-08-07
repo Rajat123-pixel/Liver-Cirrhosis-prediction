@@ -15,28 +15,36 @@ Meta-Learner: Utilized XGBoost for boosting, which effectively handles overfitti
 Data Processing
 # Data Preprocessing:
 
-Cleaning: Handled missing values, removed outliers, and addressed inconsistencies in the dataset.
-Normalization: Scaled features to ensure uniformity and improve the performance of distance-based algorithms.
+### Cleaning: 
+Handled missing values, removed outliers, and addressed inconsistencies in the dataset.
+### Normalization: 
+Scaled features to ensure uniformity and improve the performance of distance-based algorithms.
 Feature Engineering: Created new features based on domain knowledge to enhance model performance.
 Encoding: Transformed categorical variables into numerical format suitable for machine learning algorithms.
 Training and Testing:
 
-Data Splitting: Divided the dataset into training and testing subsets to evaluate model performance.
-Cross-Validation: Applied k-fold cross-validation to assess the model's robustness and prevent overfitting.
+### Data Splitting: 
+Divided the dataset into training and testing subsets to evaluate model performance.
+### Cross-Validation: 
+Applied k-fold cross-validation to assess the model's robustness and prevent overfitting.
 Model Evaluation
-Performance Metrics:
+## Performance Metrics:
 
-Precision and Recall: Evaluated to measure the model’s accuracy and ability to identify true positives and negatives.
-ROC AUC Curve: Assessed the model's capability to distinguish between classes across various thresholds.
-Visualization:
+### Precision and Recall: 
+Evaluated to measure the model’s accuracy and ability to identify true positives and negatives.
+### ROC AUC Curve: 
+Assessed the model's capability to distinguish between classes across various thresholds.
+## Visualization:
 
-PCA (Principal Component Analysis): Applied for dimensionality reduction and to visualize high-dimensional data.
-Seaborn: Used for advanced data visualization to explore and understand data distributions and model performance.
+### PCA (Principal Component Analysis): 
+Applied for dimensionality reduction and to visualize high-dimensional data.
+### Seaborn: 
+Used for advanced data visualization to explore and understand data distributions and model performance.
 Interpretability:
 
-Implemented LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) to provide interpretability and explain the predictions of the complex ensemble model.
-Achievements
-# Prediction Accuracy: 
+### Implemented LIME (Local Interpretable Model-agnostic Explanations) and SHAP (SHapley Additive exPlanations) to provide interpretability and explain the predictions of the complex ensemble model.
+# Achievements
+## Prediction Accuracy: 
 Achieved over 99.5% accuracy, demonstrating the model's exceptional performance in liver cirrhosis classification.
 
 
